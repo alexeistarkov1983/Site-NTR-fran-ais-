@@ -1,0 +1,502 @@
+[
+  {
+    "lat": 43.6997683,
+    "lng": 7.2512052,
+    "title": "Nice"
+  },
+  {
+    "lat": 43.7006462,
+    "lng": 7.2532851,
+    "title": "26 Rue Chateaunef 06000 Nice"
+  },
+  {
+    "lat": 43.7037861,
+    "lng": 7.2560203,
+    "title": "81 Bis Boulevard Gambeta 06000 Nice"
+  },
+  {
+    "lat": 43.725161,
+    "lng": 7.2673631,
+    "title": "5 Avenue Mimosas, La croix du Sud 06100 Nice"
+  },
+  {
+    "lat": 43.7256251,
+    "lng": 7.2543758,
+    "title": "54 Avenue du Ray 06100 Nice"
+  },
+  {
+    "lat": 43.7139722,
+    "lng": 7.2617284,
+    "title": "32 Avenue Borriglione 06000 Nice"
+  },
+  {
+    "lat": 43.7058387,
+    "lng": 7.2614532,
+    "title": "20 Rue Reine Jeanne 06000 Nice"
+  },
+  {
+    "lat": 43.8104725,
+    "lng": 7.3454091,
+    "title": "254 Chemin de Pivola 06390 Contes"
+  },
+  {
+    "lat": 43.706847749999994,
+    "lng": 7.262238115748033,
+    "title": "12 Rue de Villeneuve 06000 Nice"
+  },
+  {
+    "lat": 43.7088909,
+    "lng": 7.2929442,
+    "title": "4 Boulevard St Roch 06300 Nice"
+  },
+  {
+    "lat": 44.0724711,
+    "lng": 7.257843,
+    "title": "15 Avenue Henri Verdeil 06450 Saint Martin Vesubie"
+  },
+  {
+    "lat": 43.6980595,
+    "lng": 7.2518819,
+    "title": "30 Avenue des fleurs 06000 Nice"
+  },
+  {
+    "lat": 43.686759,
+    "lng": 7.222766597247704,
+    "title": "25 Avenue Joseph Giordan 06200 Nice"
+  },
+  {
+    "lat": 43.7036576,
+    "lng": 7.2559778,
+    "title": "81 boulevard Gambetta 06000 Nice"
+  },
+  {
+    "lat": 43.708231049999995,
+    "lng": 7.25237254626246,
+    "title": "36 Avenue Paul Arène 06000 Nice"
+  },
+  {
+    "lat": 43.68407915,
+    "lng": 7.223512261499563,
+    "title": "102 Boulevard Napoléon III 06200 Nice"
+  },
+  {
+    "lat": 43.715562000000006,
+    "lng": 7.255960357771259,
+    "title": "17 Avenue de Castellane 06100 Nice"
+  },
+  {
+    "lat": 43.678209,
+    "lng": 7.2185654,
+    "title": "147 Boulevard Napoléon III 06200 Nice"
+  },
+  {
+    "lat": 43.6819578,
+    "lng": 7.1645176,
+    "title": "49 Chemin de la Campanette 06800 Cagnes sur mer"
+  },
+  {
+    "lat": 43.658627,
+    "lng": 7.167848,
+    "title": "10 Rue Jean Giono 06800 Cagnes sur mer"
+  },
+  {
+    "lat": 43.7063573,
+    "lng": 7.2536023,
+    "title": "8 Avenue Buenos Ayres 06000 Nice"
+  },
+  {
+    "lat": 43.692183,
+    "lng": 7.238282,
+    "title": "73 Boulevard Edouard Herriot 06200 Nice"
+  },
+  {
+    "lat": 43.7102046,
+    "lng": 7.2608684,
+    "title": "6 boulevard Joseph Garnier 06000 Nice"
+  },
+  {
+    "lat": 43.702606,
+    "lng": 7.2292038,
+    "title": "472 Route de Bellet 06200 Nice"
+  },
+  {
+    "lat": 43.7735863,
+    "lng": 7.3753549,
+    "title": "3082 Route du Vieux Village 06440 Peillon"
+  },
+  {
+    "lat": 43.5551405,
+    "lng": 7.02733,
+    "title": "17 Boulevard Montfleury 06400 Cannes"
+  },
+  {
+    "lat": 43.71012245,
+    "lng": 7.2548455687499995,
+    "title": "5 Rue Cros de Capeu 06100 Nice"
+  },
+  {
+    "lat": 43.6985857,
+    "lng": 7.2691161,
+    "title": "7 Avenue de Jean Medecin 06000 Nice"
+  },
+  {
+    "lat": 43.7269095,
+    "lng": 7.268632890684897,
+    "title": "20 Boulevard Frederic Sperling 06100 Nice"
+  },
+  {
+    "lat": 43.7017166,
+    "lng": 7.2628671,
+    "title": "24 Avenue Georges Clemenceau 06000 Nice"
+  },
+  {
+    "lat": 43.7232671,
+    "lng": 7.2508257,
+    "title": "32 Avenue Jean Bares 06100 Nice"
+  },
+  {
+    "lat": 43.705626,
+    "lng": 7.283093270702704,
+    "title": "7 Avenue de la Republique 06300 Nice"
+  },
+  {
+    "lat": 43.705094,
+    "lng": 7.2708712,
+    "title": "17 Avenue Desambrois 06000 Nice"
+  },
+  {
+    "lat": 43.6887007,
+    "lng": 7.1130902,
+    "title": "130 Chemin de la Rougière 06480 La Colle Sur Loup"
+  },
+  {
+    "lat": 43.7184651,
+    "lng": 7.297223,
+    "title": "48 Chemin du Mont Gros 06300 Nice"
+  },
+  {
+    "lat": 43.7867517,
+    "lng": 7.2020309,
+    "title": "911 Route des plans 06510 Carros"
+  },
+  {
+    "lat": 43.7192638,
+    "lng": 7.2686373,
+    "title": "98 Avenue Valrose 06000 Nice"
+  },
+  {
+    "lat": 43.68247565,
+    "lng": 7.203915411810193,
+    "title": "36 Avenue Simone Veil 06200 Nice"
+  },
+  {
+    "lat": 43.6949405,
+    "lng": 7.24839840235662,
+    "title": "37 Avenue des Baumettes 06000 Nice"
+  },
+  {
+    "lat": 43.6871435,
+    "lng": 7.2122695,
+    "title": "201 Avenue de la Lanterne 06200 Nice"
+  },
+  {
+    "lat": 43.6977814,
+    "lng": 7.2757946,
+    "title": "4 Ruelle de la Boucherie 06000 Nice"
+  },
+  {
+    "lat": 43.705626,
+    "lng": 7.283093270702704,
+    "title": "7 Avenue de la Republique 06300 Nice"
+  },
+  {
+    "lat": 43.6983142,
+    "lng": 7.2733591,
+    "title": "10 Avenue Felix Faure 06300 Nice"
+  },
+  {
+    "lat": 43.707357,
+    "lng": 7.256999,
+    "title": "38 Rue Dabray 06300 Nice"
+  },
+  {
+    "lat": 43.6616152,
+    "lng": 7.1460673,
+    "title": "10 Chemin de l'Hubac 06800 Cagnes sur mer"
+  },
+  {
+    "lat": 43.7018881,
+    "lng": 7.2893721,
+    "title": "40 Rue Smolett 06300 Nice"
+  },
+  {
+    "lat": 43.7027579,
+    "lng": 7.2664613,
+    "title": "35 Avenue Jean Medecin 06000 Nice"
+  },
+  {
+    "lat": 43.576886,
+    "lng": 7.0151793,
+    "title": "12 Rue des moulières 06110 Le Cannet"
+  },
+  {
+    "lat": 43.5459404,
+    "lng": 7.0336964,
+    "title": "10 Boulevard Alexandre III 06400 Cannes"
+  },
+  {
+    "lat": 43.7087331,
+    "lng": 7.2634313,
+    "title": "2 Rue Veillon 06000 Nice"
+  },
+  {
+    "lat": 43.6993671,
+    "lng": 7.2705379,
+    "title": "32 Rue Hôtel des postes 06000 Nice"
+  },
+  {
+    "lat": 43.7016637,
+    "lng": 7.2588534,
+    "title": "45 rue hérold 06000 Nice"
+  },
+  {
+    "lat": 43.7184855,
+    "lng": 7.272848128932967,
+    "title": "98 Boulevard de Cimiez 06000 Nice"
+  },
+  {
+    "lat": 43.7058664,
+    "lng": 7.2627298,
+    "title": "12 Rue Reine Jeanne 06000 Nice"
+  },
+  {
+    "lat": 43.6979969,
+    "lng": 7.252841,
+    "title": "22 Avenue des Fleurs 06000 Nice"
+  },
+  {
+    "lat": 43.7115153,
+    "lng": 7.2626697,
+    "title": "7 Avenue Romain Rolland 06100 Nice"
+  },
+  {
+    "lat": 43.6987406,
+    "lng": 7.2525839,
+    "title": "5 Rue Colonel Musso 06000 Nice"
+  },
+  {
+    "lat": 43.7197642,
+    "lng": 7.2629339,
+    "title": "168 Avenue Saint Lambert 06100 Nice"
+  },
+  {
+    "lat": 43.5702486,
+    "lng": 6.9996396,
+    "title": "40 Impasse de l'Olivette 06110 Le Cannet"
+  },
+  {
+    "lat": 43.6998595,
+    "lng": 7.2718321,
+    "title": "16 Rue Alberti 06000 Nice"
+  },
+  {
+    "lat": 43.6810193,
+    "lng": 7.2312744,
+    "title": "275 Promenade des Anglais 06200 Nice"
+  },
+  {
+    "lat": 43.7234882,
+    "lng": 7.2648586,
+    "title": "9 Impasse des Noisetiers 06100 Nice"
+  },
+  {
+    "lat": 43.7154191,
+    "lng": 7.2695118,
+    "title": "14 Avenue du Puits 06000 Nice"
+  },
+  {
+    "lat": 43.706739,
+    "lng": 7.2536887,
+    "title": "34 Avenue Buenos Ayres 06000 Nice"
+  },
+  {
+    "lat": 43.7168753,
+    "lng": 7.269625078925628,
+    "title": "37 Avenue Edith Cavell 06000 Nice"
+  },
+  {
+    "lat": 43.7064087,
+    "lng": 7.2575828,
+    "title": "26 Rue Dabray 06000 Nice"
+  },
+  {
+    "lat": 43.6993389,
+    "lng": 7.2710508,
+    "title": "43 Rue de l’Hôtel des Postes 06000 Nice"
+  },
+  {
+    "lat": 43.6960924,
+    "lng": 7.2527929,
+    "title": "1 Rue Alexis Mossa 06000 Nice"
+  },
+  {
+    "lat": 43.7018543,
+    "lng": 7.2626757,
+    "title": "6 Avenue Durante 06000 Nice"
+  },
+  {
+    "lat": 43.6976077,
+    "lng": 7.2764478,
+    "title": "6 Rue Mascoinat 06300 Nice"
+  },
+  {
+    "lat": 43.7068063,
+    "lng": 7.256662,
+    "title": "47 Rue Vernier 06000 Nice"
+  },
+  {
+    "lat": 43.7018881,
+    "lng": 7.2893721,
+    "title": "38 Rue Smolett 06300 Nice"
+  },
+  {
+    "lat": 43.6902776,
+    "lng": 7.2384413,
+    "title": "6 Avenue du Petit Fabron 06200 Nice"
+  },
+  {
+    "lat": 43.7307221,
+    "lng": 7.2467835,
+    "title": "129 Boulevard Las planas 06100 Nice"
+  },
+  {
+    "lat": 43.5788838,
+    "lng": 7.1201033,
+    "title": "11 Boulevard Marechal Foch 06600 Antibes"
+  },
+  {
+    "lat": 43.7284058,
+    "lng": 7.2457057,
+    "title": "22 Chemin de la Gruerie 06100 Nice"
+  },
+  {
+    "lat": 43.7038605,
+    "lng": 7.2673639,
+    "title": "26 Avenue Notre Dame 06000 Nice"
+  },
+  {
+    "lat": 43.7091351,
+    "lng": 7.3308656,
+    "title": "13 Boulevard Eugène Gauthier 06310 Beaulieu Sur Mer"
+  },
+  {
+    "lat": 43.7068063,
+    "lng": 7.256662,
+    "title": "47 Rue Vernier 06000 Nice"
+  },
+  {
+    "lat": 43.714404,
+    "lng": 7.2656245359281435,
+    "title": "4 Avenue Joachim 06100 Nice"
+  },
+  {
+    "lat": 43.6876596,
+    "lng": 7.2390429,
+    "title": "181 Promenade des Anglais 06200 Nice"
+  },
+  {
+    "lat": 43.7196984,
+    "lng": 7.255594,
+    "title": "7 Rue des Védiantiens 06100 Nice"
+  },
+  {
+    "lat": 43.7037861,
+    "lng": 7.2560203,
+    "title": "81 Bis Boulevard Gambetta 06000 Nice"
+  },
+  {
+    "lat": 43.6987185,
+    "lng": 7.2740329,
+    "title": "2 Rue Gubernatis 06000 Nice"
+  },
+  {
+    "lat": 43.6980595,
+    "lng": 7.2518819,
+    "title": "30 Avenue des fleurs 06000 Nice"
+  },
+  {
+    "lat": 43.6465955,
+    "lng": 6.9328861,
+    "title": "28 Chemin de la Chapelle Saint Antoine 06130 Grasse"
+  },
+  {
+    "lat": 43.7228061,
+    "lng": 7.2562553,
+    "title": "7 Rue Pierre Mellarede 06100 Nice"
+  },
+  {
+    "lat": 43.714562,
+    "lng": 7.2597007,
+    "title": "15 Rue Michelet 06100 Nice"
+  },
+  {
+    "lat": 43.7044469,
+    "lng": 7.2859718,
+    "title": "33 Rue Auguste Gal 06300 Nice"
+  },
+  {
+    "lat": 43.6976807,
+    "lng": 7.2773727,
+    "title": "14 Rue Droite 06300 Nice"
+  },
+  {
+    "lat": 43.6907121,
+    "lng": 7.2437571,
+    "title": "15 Avenue de la Californie 06200 Nice"
+  },
+  {
+    "lat": 43.6615292,
+    "lng": 7.1574733,
+    "title": "12 Avenue des Chênes 06800 Cagnes sur mer"
+  },
+  {
+    "lat": 43.710592,
+    "lng": 7.2493009,
+    "title": "63 Avenue de Pessicart 06100 Nice"
+  },
+  {
+    "lat": 43.6963627,
+    "lng": 7.2721598,
+    "title": "5 Rue Alexandre Mari 06300 Nice"
+  },
+  {
+    "lat": 43.706115,
+    "lng": 7.2708790723122245,
+    "title": "4 Boulevard de Cimiez 06000 Nice"
+  },
+  {
+    "lat": 43.6968316,
+    "lng": 7.273019,
+    "title": "1 Rue Raoul Bosio 06300 Nice"
+  },
+  {
+    "lat": 43.7080348,
+    "lng": 7.2584758,
+    "title": "39 Rue Clément Roassal 06000 Nice"
+  },
+  {
+    "lat": 43.7256775,
+    "lng": 7.267572798611111,
+    "title": "19 Petite Avenue des Orangers 06100 Nice"
+  },
+  {
+    "lat": 43.6963286,
+    "lng": 7.2764506,
+    "title": "29 Rue de la Préfecture 06300 Nice"
+  },
+  {
+    "lat": 43.6985663,
+    "lng": 7.2724351,
+    "title": "3 Rue Alberti 06000 Nice"
+  }
+]
