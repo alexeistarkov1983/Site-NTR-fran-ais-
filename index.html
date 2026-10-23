@@ -8,12 +8,12 @@
   <link rel="icon" href="images/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,620&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/home.css">
 </head>
-<body class="home">
+<body class="home home-b">
   <a class="skip" href="#contenu">Passer au contenu</a>
   <header class="site-header">
     <div class="header-inner">
@@ -49,32 +49,72 @@
   </header>
 
   <main id="contenu">
-    <section class="intro" id="accueil">
-      <div class="wrap">
-        <div class="intro-grid">
-          <div class="intro-copy">
-            <p class="eyebrow">Nice et sa région</p>
-            <h1>Vos travaux sans problème.</h1>
-            <p class="standard">Le standard Nice Travaux Rénovation.</p>
-            <p class="intro-text">Rénovation d'une pièce, d'un appartement ou d'une maison entière, à Nice et aux alentours. Une équipe de salariés, tous déclarés, et une organisation de chantier du premier chiffre jusqu'à la réception.</p>
-            <div class="actions">
-              <a class="btn btn-red" href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">
-                <svg viewBox="0 0 24 24"><path d="M7 2h10a2 2 0 0 1 2 2v16l-7-3-7 3V4a2 2 0 0 1 2-2z"/></svg>
-                Chiffrez vos travaux
-              </a>
-              <a class="btn btn-ghost" href="tel:+33633631867">06 33 63 18 67</a>
-            </div>
-          </div>
-          <figure class="intro-photo">
-            <img src="images/hero.jpg" width="1800" height="1052" alt="L'équipe salariée Nice Travaux Rénovation" fetchpriority="high">
-          </figure>
+    <section class="billboard" id="accueil">
+      <h1 class="sr">Vos travaux sans problème.</h1>
+      <p class="giant" aria-hidden="true">Vos travaux</p>
+      <img class="billboard-photo" src="images/hero.jpg" width="1800" height="1052" alt="L'équipe salariée Nice Travaux Rénovation" fetchpriority="high">
+      <p class="giant giant-end" aria-hidden="true">sans problème.</p>
+      <div class="billboard-meta">
+        <p class="standard">Le standard Nice Travaux Rénovation.</p>
+        <p class="intro-text">Rénovation d'une pièce, d'un appartement ou d'une maison entière, à Nice et aux alentours. Une équipe de salariés, tous déclarés, et une organisation de chantier du premier chiffre jusqu'à la réception.</p>
+        <div class="actions">
+          <a class="btn btn-red" href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">Chiffrez vos travaux</a>
+          <a class="btn btn-line" href="tel:+33633631867">06 33 63 18 67</a>
         </div>
-        <ul class="promises">
-          <li><strong>Une équipe expérimentée</strong><span>Des salariés, tous déclarés.</span></li>
-          <li><strong>Des délais respectés</strong><span>La date de livraison est convenue, puis tenue.</span></li>
-          <li><strong>Un chantier propre</strong><span>L'espace de travail est protégé, puis nettoyé.</span></li>
-          <li><strong>Un seul interlocuteur</strong><span>Une seule équipe pour tous vos travaux.</span></li>
-        </ul>
+      </div>
+      <ol class="vows">
+        <li><span>01</span><strong>Une équipe expérimentée</strong><small>Des salariés, tous déclarés.</small></li>
+        <li><span>02</span><strong>Des délais respectés</strong><small>La date de livraison est convenue, puis tenue.</small></li>
+        <li><span>03</span><strong>Un chantier propre</strong><small>L'espace de travail est protégé, puis nettoyé.</small></li>
+        <li><span>04</span><strong>Un seul interlocuteur</strong><small>Une seule équipe pour tous vos travaux.</small></li>
+      </ol>
+    </section>
+
+    <section class="realisations" id="realisations">
+      <div class="wrap">
+        <h2>Nos réalisations</h2>
+        <p class="section-lead">Des chantiers déjà montrés par NTR : ponçage de parquet et pose de carrelage, à Nice.</p>
+        <div class="works-layout">
+          <article class="work">
+            <div class="ba">
+              <figure>
+                <img src="images/parquet/av2.png" width="1000" height="562" alt="Parquet mosaïque avant ponçage, avec frise et mur courbe" loading="lazy" decoding="async">
+                <figcaption>AVANT</figcaption>
+              </figure>
+              <figure>
+                <img src="images/parquet/ap2.png" width="1000" height="562" alt="Le même parquet après ponçage et finition brillante" loading="lazy" decoding="async">
+                <figcaption>APRÈS</figcaption>
+              </figure>
+            </div>
+            <h3>Parquet mosaïque et frise</h3>
+            <p>Ponçage et vitrification. La frise et la pointe de diamant restent en place.</p>
+            <a href="poncage-de-parquet.html">Voir le ponçage de parquet</a>
+          </article>
+          <div class="work-side">
+            <article class="work">
+              <div class="ba">
+                <figure>
+                  <img src="images/parquet/av1.png" width="1000" height="562" alt="Parquet en point de Hongrie avant ponçage" loading="lazy" decoding="async">
+                  <figcaption>AVANT</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/parquet/ap1.png" width="1000" height="562" alt="Parquet en point de Hongrie après ponçage" loading="lazy" decoding="async">
+                  <figcaption>APRÈS</figcaption>
+                </figure>
+              </div>
+              <h3>Point de Hongrie</h3>
+              <p>Un parquet terni, repris sur toute la pièce.</p>
+            </article>
+            <article class="work">
+              <figure class="shot">
+                <img src="images/carrelage/g3.jpg" width="768" height="1024" alt="Douche carrelée de faïence verte" loading="lazy" decoding="async">
+              </figure>
+              <h3>Salle de bain carrelée</h3>
+              <p>Faïence, douche et finitions.</p>
+              <a href="pose-de-carrelage-a-nice.html">Voir la pose de carrelage</a>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -229,64 +269,18 @@
       </div>
     </section>
 
-    <section class="realisations" id="realisations">
-      <div class="wrap">
-        <h2>Nos réalisations</h2>
-        <p class="section-lead">Des chantiers déjà montrés par NTR : ponçage de parquet et pose de carrelage, à Nice.</p>
-        <div class="works-layout">
-          <article class="work">
-            <div class="ba">
-              <figure>
-                <img src="images/parquet/av2.png" width="1000" height="562" alt="Parquet mosaïque avant ponçage, avec frise et mur courbe" loading="lazy" decoding="async">
-                <figcaption>AVANT</figcaption>
-              </figure>
-              <figure>
-                <img src="images/parquet/ap2.png" width="1000" height="562" alt="Le même parquet après ponçage et finition brillante" loading="lazy" decoding="async">
-                <figcaption>APRÈS</figcaption>
-              </figure>
-            </div>
-            <h3>Parquet mosaïque et frise</h3>
-            <p>Ponçage et vitrification. La frise et la pointe de diamant restent en place.</p>
-            <a href="poncage-de-parquet.html">Voir le ponçage de parquet</a>
-          </article>
-          <div class="work-side">
-            <article class="work">
-              <div class="ba">
-                <figure>
-                  <img src="images/parquet/av1.png" width="1000" height="562" alt="Parquet en point de Hongrie avant ponçage" loading="lazy" decoding="async">
-                  <figcaption>AVANT</figcaption>
-                </figure>
-                <figure>
-                  <img src="images/parquet/ap1.png" width="1000" height="562" alt="Parquet en point de Hongrie après ponçage" loading="lazy" decoding="async">
-                  <figcaption>APRÈS</figcaption>
-                </figure>
-              </div>
-              <h3>Point de Hongrie</h3>
-              <p>Un parquet terni, repris sur toute la pièce.</p>
-            </article>
-            <article class="work">
-              <figure class="shot">
-                <img src="images/carrelage/g3.jpg" width="768" height="1024" alt="Douche carrelée de faïence verte" loading="lazy" decoding="async">
-              </figure>
-              <h3>Salle de bain carrelée</h3>
-              <p>Faïence, douche et finitions.</p>
-              <a href="pose-de-carrelage-a-nice.html">Voir la pose de carrelage</a>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section class="finale">
-      <div class="wrap">
-        <p class="eyebrow">Une équipe qui fait toute la différence</p>
-        <h2>Nous rénovons. <em>Vous habitez.</em></h2>
-        <p class="section-lead">pour tous vos projets de rénovation d'intérieur. Le chantier est pris en charge. Vous gardez votre quotidien.</p>
-        <div class="actions">
-          <a class="btn btn-red" href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">Chiffrez vos travaux</a>
-          <button class="btn btn-ghost" type="button" data-open="modal-contact">Demandez un devis</button>
-          <button class="btn btn-ghost" type="button" data-open="modal-rappel">Être rappelé dans les 30 minutes</button>
-        </div>
+      <p class="eyebrow">Une équipe qui fait toute la différence</p>
+      <div class="finale-split">
+        <h2>Nous rénovons.</h2>
+        <p>Vous habitez.</p>
+      </div>
+      <p class="section-lead">pour tous vos projets de rénovation d'intérieur. Le chantier est pris en charge. Vous gardez votre quotidien.</p>
+      <div class="actions">
+        <a class="btn btn-red" href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">Chiffrez vos travaux</a>
+        <button class="btn btn-ghost" type="button" data-open="modal-contact">Demandez un devis</button>
+        <button class="btn btn-ghost" type="button" data-open="modal-rappel">Être rappelé dans les 30 minutes</button>
       </div>
     </section>
 
