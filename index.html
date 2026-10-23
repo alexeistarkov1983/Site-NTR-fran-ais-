@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entreprise générale de Rénovation à Nice | Devis sous 48h</title>
+  <meta name="description" content="Une seule équipe pour tous vos travaux de rénovation. Délai et qualité garantis. Rénovation d'une pièce ou complète d'un appartement ou d'une maison.">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body class="home">
+  <a class="skip" href="#contenu">Passer au contenu</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html#accueil" aria-label="Nice Travaux Rénovation, accueil"><img src="images/logo.png" alt="Nice Travaux Rénovation"></a>
+      <div class="header-tools">
+        <div class="contacts">
+          <a href="tel:+33633631867"><svg viewBox="0 0 24 24"><path d="M6 3h3l2 5-2 1a12 12 0 0 0 6 6l1-2 5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 4 5a2 2 0 0 1 2-2z"/></svg>06 33 63 18 67</a>
+          <a class="mail" href="mailto:nicetravauxrenovation@gmail.com"><svg viewBox="0 0 24 24"><path d="M3 6h18v12H3z"/><path d="m3 7 9 7 9-7"/></svg>nicetravauxrenovation@gmail.com</a>
+        </div>
+        <div class="nav-row">
+          <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+          <ul class="nav">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#notre-equipe">Notre équipe</a></li>
+            <li><a href="#nos-services">Nos services</a></li>
+            <li><a href="#temoignages">Témoignages</a></li>
+          </ul>
+          <div class="lang">
+            <button class="lang-btn" aria-label="Choisir la langue" aria-expanded="false">🇫🇷</button>
+            <ul class="lang-menu">
+              <li><a href="index.html">Français</a></li>
+              <li><a href="https://nicetravauxrenovation.fr/en/">English</a></li>
+              <li><a href="https://nicetravauxrenovation.fr/ru/">Русский</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-red" href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M7 2h10a2 2 0 0 1 2 2v16l-7-3-7 3V4a2 2 0 0 1 2-2z"/></svg>
+            Chiffrez vos travaux
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="intro" id="accueil">
+      <div class="wrap">
+        <div class="intro-grid">
+          <div class="intro-copy">
+            <p class="eyebrow">Nice et sa région</p>
+            <h1>Vos travaux sans problème.</h1>
+            <p class="standard">Le standard Nice Travaux Rénovation.</p>
+            <p class="intro-text">Rénovation d'une pièce, d'un appartement ou d'une maison entière, à Nice et aux alentours. Une équipe de salariés, tous déclarés, et une organisation de chantier du premier chiffre jusqu'à la réception.</p>
+            <div class="actions">
+              <a class="btn btn-red" href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M7 2h10a2 2 0 0 1 2 2v16l-7-3-7 3V4a2 2 0 0 1 2-2z"/></svg>
+                Chiffrez vos travaux
+              </a>
+              <a class="btn btn-ghost" href="tel:+33633631867">06 33 63 18 67</a>
+            </div>
+          </div>
+          <figure class="intro-photo">
+            <img src="images/hero.jpg" width="1800" height="1052" alt="L'équipe salariée Nice Travaux Rénovation" fetchpriority="high">
+          </figure>
+        </div>
+        <ul class="promises">
+          <li><strong>Une équipe expérimentée</strong><span>Des salariés, tous déclarés.</span></li>
+          <li><strong>Des délais respectés</strong><span>La date de livraison est convenue, puis tenue.</span></li>
+          <li><strong>Un chantier propre</strong><span>L'espace de travail est protégé, puis nettoyé.</span></li>
+          <li><strong>Un seul interlocuteur</strong><span>Une seule équipe pour tous vos travaux.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="methode" id="notre-equipe">
+      <div class="wrap">
+        <div class="methode-grid">
+          <div>
+            <p class="kicker">Notre façon de travailler</p>
+            <h2>Derrière chaque projet réussi, un visage !</h2>
+            <p class="methode-lead">Le chantier se voit. L'équipe aussi : chacun a son métier, et quelqu'un fait le lien jusqu'à la finition.</p>
+            <ul class="voices">
+              <li>« Je mène mon équipe et votre projet avec rigueur »</li>
+              <li>« Je fais le lien entre les équipes. »</li>
+              <li>« Je ne suis pas maniaque mais les finitions doivent être bien faites ! »</li>
+            </ul>
+          </div>
+          <figure class="player" data-player>
+            <div class="stage">
+              <video poster="images/video/poster.jpg" preload="none" playsinline muted width="720" height="1280"></video>
+              <button class="play" type="button" data-play>
+                <b aria-hidden="true"></b>
+                <small>Voir le chantier</small>
+              </button>
+            </div>
+            <figcaption>Ponçage de parquet sur un chantier. Vidéo sans son, tournée sur place.</figcaption>
+          </figure>
+        </div>
+        <figure class="cork">
+          <img src="images/equipe.jpg" width="1600" height="716" alt="L'équipe NTR sur un tableau en liège, avec la phrase de chacun et un poste à pourvoir" loading="lazy" decoding="async">
+        </figure>
+      </div>
+    </section>
+
+    <section class="ensemble" id="ensemble">
+      <div class="wrap">
+        <h2>Envie de travailler ensemble ?</h2>
+        <p class="section-lead">Trois étapes, les mêmes qu'avant. Le calculateur chiffre, vous gardez l'estimation, puis on fixe le rendez-vous.</p>
+        <div class="parcours">
+          <a href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">
+            <span class="num" aria-hidden="true">1</span>
+            <span><strong>Etape 1</strong><em>Estimez vos travaux en ligne</em></span>
+          </a>
+          <a href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">
+            <span class="num" aria-hidden="true">2</span>
+            <span><strong>Etape 2</strong><em>Téléchargez votre estimation</em></span>
+          </a>
+          <button type="button" data-open="modal-rappel">
+            <span class="num" aria-hidden="true">3</span>
+            <span><strong>Etape 3</strong><em>Contactez nous pour un RDV</em></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="services" id="nos-services">
+      <div class="wrap-wide tabs">
+        <div class="tablist" role="tablist">
+          <button class="tab" role="tab" aria-selected="true" data-panel="panel-totale"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 11 12 3l9 8v9h-6v-6H9v6H3z"/></svg> RENOVATION TOTALE</button>
+          <button class="tab" role="tab" aria-selected="false" data-panel="panel-pieces"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 12h8V4H3zm10 8h8v-8h-8zM3 20h8v-6H3zm10-10h8V4h-8z"/></svg> PIÈCE PAR PIÈCE</button>
+          <button class="tab" role="tab" aria-selected="false" data-panel="panel-carte"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m14 4-4 1-4-1-4 1v15l4-1 4 1 4-1 4 1V5z"/></svg> À LA CARTE</button>
+        </div>
+        <div class="panel active" id="panel-totale">
+          <div class="cards two">
+            <a class="card" href="https://ntr.calculateurtravaux.com/maison" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/maison.jpg" alt="Maison en pierre"><span>Maison</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/appartement" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/appartement.jpg" alt="Appartement rénové"><span>Appartement</span></a>
+          </div>
+        </div>
+        <div class="panel" id="panel-pieces">
+          <div class="cards three">
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-salle-de-bain/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/sdb.jpg" alt="Salle de bain"><span>Salle de bain</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-cuisine/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/cuisine.jpg" alt="Cuisine"><span>Cuisine</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-salon/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/salon.jpg" alt="Salon"><span>Salon</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/combles/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/combles.jpg" alt="Combles"><span>Combles</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-wc-independant/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/toilettes.jpg" alt="Toilettes"><span>Toilettes</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-entree/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/entree.jpg" alt="Entrée"><span>Entrée</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-chambre/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/chambre.jpg" alt="Chambre"><span>Chambre</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-bureau/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/bureau.jpg" alt="Bureau"><span>Bureau</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-buanderie/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/buanderie.jpg" alt="Buanderie"><span>Buanderie</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-du-garage/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/garage-reno.jpg" alt="Rénovation de garage"><span>Rénovation garage</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/rehabilitation-du-garage/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/garage-rehab.jpg" alt="Réhabilitation de garage"><span>Réhabilitation garage</span></a>
+          </div>
+        </div>
+        <div class="panel" id="panel-carte">
+          <div class="cards three">
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-fenetre-porte-escalier-bois/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/portes.jpg" alt="Portes et fenêtres"><span>Portes-Fenetres</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-chauffage/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/chauffage.jpg" alt="Chauffage et climatisation"><span>Chauffage-Climatisaton</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-energetique/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/terrasse.jpg" alt="Terrasse"><span>Terrasse-Exterieur</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-energetique/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/isolation.jpg" alt="Isolation"><span>Isolation</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-energetique/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/toiture.jpg" alt="Toiture"><span>Toiture</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-energetique/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/facade.jpg" alt="Façade"><span>Façade</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-plomberie/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/plomberie.jpg" alt="Plomberie"><span>Plomberie</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-murs-plafonds-elements" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/peinture.jpg" alt="Peinture"><span>Peinture-Révetements</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-murs-plafonds-elements" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/verriere.jpg" alt="Verrière"><span>Verrière-mur-plafond</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/gros-oeuvre/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/gros-oeuvre.jpg" alt="Gros œuvre"><span>Gros oeuvre</span></a>
+            <a class="card" href="https://ntr.calculateurtravaux.com/renovation-electricite/" target="_blank" rel="noopener"><img loading="lazy" decoding="async" src="images/services/electricite.jpg" alt="Électricité"><span>Electricité</span></a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="why" id="avantages" aria-labelledby="avantages-title">
+      <div class="wrap">
+        <h2 id="avantages-title">13 avantages de travailler avec nous</h2>
+        <p class="plus">+ un défaut</p>
+        <div class="cloud">
+          <span class="c-xl c-a">Réactivité</span>
+          <span class="vert">Qualité</span>
+          <span class="c-lg">Respect des délais</span>
+          <span class="c-sm c-b">Conseil proactif</span>
+          <span class="c-md">Souci du détail</span>
+          <span class="vert">Communication</span>
+          <span class="c-md c-a">Flexibilité</span>
+          <span class="c-sm">Collaboration</span>
+          <span class="c-lg c-b">Confiance</span>
+          <span class="c-sm">Liberté de choix</span>
+          <span class="vert">Confort</span>
+          <span class="c-md">Ponctualité</span>
+          <span class="c-sm c-a">Collaboration finale</span>
+          <button class="defect" type="button" data-defect aria-expanded="false" aria-controls="le-prix">Le prix</button>
+        </div>
+        <figure class="price-quote" id="le-prix">
+          <blockquote>Un professionnel coûte cher, l'incompétent coûte le double !</blockquote>
+        </figure>
+      </div>
+    </section>
+
+    <section class="preuves" id="temoignages">
+      <div class="wrap">
+        <h2>Les preuves du standard NTR</h2>
+        <div class="preuves-grid">
+          <div>
+            <h3>Ils nous ont fait confiance :</h3>
+            <p class="lead">Plus de 100 appartements/maisons rénovés en 5 ans !</p>
+            <div id="map" role="region" aria-label="Carte des chantiers autour de Nice"></div>
+            <p class="map-note">Chaque point est un chantier à Nice ou aux alentours.</p>
+          </div>
+          <div class="proof-col">
+            <h3>C'est aussi :</h3>
+            <div class="stat-list">
+              <article class="stat"><span class="bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v18M7 7h8a3 3 0 0 1 0 6H7"/></svg></span><div>1,5M de chiffre d'affaire en 2025</div></article>
+              <article class="stat"><span class="bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4 7v6c0 5 3.5 7.5 8 8 4.5-.5 8-3 8-8V7z"/></svg></span><div>Garantie décennale</div></article>
+              <article class="stat"><span class="bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 11V6a2 2 0 0 1 4 0v5h1V8a2 2 0 1 1 4 0v7a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5v-2z"/></svg></span><div>+110 avis Google<div class="stars">★★★★★ <span>5 / 5</span></div></div></article>
+            </div>
+            <h3>Et surtout :</h3>
+            <div class="stat-list">
+              <article class="stat"><span class="bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="16" cy="9" r="2"/><path d="M3 19c1-3 3-4 6-4s5 1 6 4M14 19c.4-2 1.6-3 4-3 1.5 0 2.6.4 3.4 1.4"/></svg></span><div>Des équipes non fumeur</div></article>
+              <article class="stat"><span class="bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg></span><div>Des équipes ponctuelles</div></article>
+              <article class="stat"><span class="bubble" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 11V6a2 2 0 0 1 4 0v5h5a4 4 0 0 1-4 8H9a5 5 0 0 1-1-9z"/></svg></span><div>Des équipes de salariés, tous déclarés</div></article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="realisations" id="realisations">
+      <div class="wrap">
+        <h2>Nos réalisations</h2>
+        <p class="section-lead">Des chantiers déjà montrés par NTR : ponçage de parquet et pose de carrelage, à Nice.</p>
+        <div class="works-layout">
+          <article class="work">
+            <div class="ba">
+              <figure>
+                <img src="images/parquet/av2.png" width="1000" height="562" alt="Parquet mosaïque avant ponçage, avec frise et mur courbe" loading="lazy" decoding="async">
+                <figcaption>AVANT</figcaption>
+              </figure>
+              <figure>
+                <img src="images/parquet/ap2.png" width="1000" height="562" alt="Le même parquet après ponçage et finition brillante" loading="lazy" decoding="async">
+                <figcaption>APRÈS</figcaption>
+              </figure>
+            </div>
+            <h3>Parquet mosaïque et frise</h3>
+            <p>Ponçage et vitrification. La frise et la pointe de diamant restent en place.</p>
+            <a href="poncage-de-parquet.html">Voir le ponçage de parquet</a>
+          </article>
+          <div class="work-side">
+            <article class="work">
+              <div class="ba">
+                <figure>
+                  <img src="images/parquet/av1.png" width="1000" height="562" alt="Parquet en point de Hongrie avant ponçage" loading="lazy" decoding="async">
+                  <figcaption>AVANT</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/parquet/ap1.png" width="1000" height="562" alt="Parquet en point de Hongrie après ponçage" loading="lazy" decoding="async">
+                  <figcaption>APRÈS</figcaption>
+                </figure>
+              </div>
+              <h3>Point de Hongrie</h3>
+              <p>Un parquet terni, repris sur toute la pièce.</p>
+            </article>
+            <article class="work">
+              <figure class="shot">
+                <img src="images/carrelage/g3.jpg" width="768" height="1024" alt="Douche carrelée de faïence verte" loading="lazy" decoding="async">
+              </figure>
+              <h3>Salle de bain carrelée</h3>
+              <p>Faïence, douche et finitions.</p>
+              <a href="pose-de-carrelage-a-nice.html">Voir la pose de carrelage</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="finale">
+      <div class="wrap">
+        <p class="eyebrow">Une équipe qui fait toute la différence</p>
+        <h2>Nous rénovons. <em>Vous habitez.</em></h2>
+        <p class="section-lead">pour tous vos projets de rénovation d'intérieur. Le chantier est pris en charge. Vous gardez votre quotidien.</p>
+        <div class="actions">
+          <a class="btn btn-red" href="https://ntr.calculateurtravaux.com/" target="_blank" rel="noopener">Chiffrez vos travaux</a>
+          <button class="btn btn-ghost" type="button" data-open="modal-contact">Demandez un devis</button>
+          <button class="btn btn-ghost" type="button" data-open="modal-rappel">Être rappelé dans les 30 minutes</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="partner">
+      <div class="wrap">
+        <h2>Nice Travaux Rénovation c'est aussi, le <em>Gros œuvre</em></h2>
+        <p>Découvrez également nos services de construction, extension et surélévation dans les Alpes-Maritimes (06) avec notre filiale Sud Construction Extension.</p>
+        <a class="btn btn-blue" href="https://www.sudconstructionextension.fr/" target="_blank" rel="noopener">Accédez au site de Sud Construction Extension</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-logos">
+          <a href="index.html"><img src="images/logo.png" alt="Nice Travaux Rénovation"></a>
+          <a href="https://www.lesmecsdubatiment.com/" target="_blank" rel="noopener"><img src="images/logo-lmdb.png" alt="Les Mecs du Bâtiment"></a>
+          <a href="https://www.sudconstructionextension.fr/" target="_blank" rel="noopener"><img src="images/logo-sud.svg" alt="Sud Construction Extension"></a>
+        </div>
+        <div class="footer-side">
+          <div class="socials">
+            <a href="https://www.facebook.com/nicetravauxrenovation" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+            <a href="https://www.instagram.com/nicetravauxrenovation/" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
+            <a href="https://www.linkedin.com/company/nice-travaux-renovation/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          </div>
+          <div class="footer-contact">
+            <div><a href="tel:+33633631867">06 33 63 18 67</a></div>
+            <div><a href="mailto:nicetravauxrenovation@gmail.com">nicetravauxrenovation@gmail.com</a></div>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-rule">
+      <div class="footer-bottom">
+        <span>© 2025 Nice Travaux Renovation – Tous Droits Réservés</span>
+        <span>
+          <a href="poncage-de-parquet.html">Ponçage de parquet</a> ·
+          <a href="pose-de-carrelage-a-nice.html">Pose de carrelage</a> ·
+          <a href="mentions-legales.html">Mentions légales</a> ·
+          <a href="mentions-legales.html#donnees">Politique de confidentialité</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="floaters">
+    <button class="to-top" type="button">Haut</button>
+    <button class="consent-reopen" type="button">Gérer le consentement</button>
+    <button class="chat-btn" type="button" data-open="modal-contact" aria-label="Nous écrire">💬</button>
+  </div>
+
+  <div class="modal" id="modal-contact" hidden>
+    <div class="dialog" role="dialog" aria-labelledby="contact-title">
+      <button class="close" type="button" data-close aria-label="Fermer">×</button>
+      <h2 id="contact-title">Contactez-nous</h2>
+      <p class="sub">Votre devis travaux gratuit en quelques clics</p>
+      <form data-form>
+        <label>Adresse mail *<input type="email" name="email" required></label>
+        <label>Votre nom *<input type="text" name="nom" required></label>
+        <label>Téléphone *<input type="tel" name="telephone" required></label>
+        <label>Votre message *<textarea name="message" required></textarea></label>
+        <button class="btn btn-red" type="submit">Envoyer le message</button>
+        <p class="form-note" role="status"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-rappel" hidden>
+    <div class="dialog" role="dialog" aria-labelledby="rappel-title">
+      <button class="close" type="button" data-close aria-label="Fermer">×</button>
+      <h2 id="rappel-title">Prise de rendez-vous téléphonique</h2>
+      <p class="sub">Être rappelé dans les 30 minutes</p>
+      <form data-form>
+        <label>Votre nom *<input type="text" name="nom" required></label>
+        <label>Téléphone *<input type="tel" name="telephone" required></label>
+        <label>Adresse mail *<input type="email" name="email" required></label>
+        <label>Date de l'appel <input type="date" name="date"></label>
+        <label>Description du projet *<textarea name="projet" required></textarea></label>
+        <button class="btn btn-red" type="submit">Envoyer ma demande</button>
+        <p class="form-note" role="status"></p>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal cookie" id="cookie" hidden>
+    <div class="dialog" role="dialog" aria-labelledby="cookie-title">
+      <button class="close" type="button" data-consent="refuse" aria-label="Fermer">×</button>
+      <img src="images/logo.png" alt="" width="54" height="54">
+      <h2 id="cookie-title">Gérer le consentement</h2>
+      <p>Pour offrir les meilleures expériences, nous utilisons des technologies telles que les cookies pour stocker et/ou accéder aux informations des appareils. Le fait de consentir à ces technologies nous permettra de traiter des données telles que le comportement de navigation ou les ID uniques sur ce site. Le fait de ne pas consentir ou de retirer son consentement peut avoir un effet négatif sur certaines caractéristiques et fonctions.</p>
+      <div class="prefs" id="cookie-prefs">
+        <div class="pref"><span>Fonctionnel — toujours activé</span><input type="checkbox" checked disabled></div>
+        <div class="pref"><span>Statistiques</span><input id="consent-stats" type="checkbox"></div>
+        <div class="pref"><span>Marketing</span><input id="consent-marketing" type="checkbox"></div>
+        <button class="btn btn-ghost" type="button" id="cookie-save">Enregistrer les préférences</button>
+      </div>
+      <div class="cookie-actions">
+        <button class="btn btn-red" type="button" id="cookie-accept">Accepter</button>
+        <button class="btn btn-ghost" type="button" data-consent="refuse">Refuser</button>
+        <button class="btn btn-ghost" type="button" id="cookie-more">Voir les préférences</button>
+      </div>
+      <div class="cookie-links">
+        <a href="mentions-legales.html#donnees">Politique de cookies</a>
+        <a href="mentions-legales.html#donnees">Déclaration de confidentialité</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
