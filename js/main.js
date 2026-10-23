@@ -125,3 +125,30 @@ if (mapEl && window.L) {
     })
     .catch(() => {});
 }
+
+const player = document.querySelector("[data-player]");
+if (player) {
+  const video = player.querySelector("video");
+  const play = player.querySelector("[data-play]");
+  const start = () => {
+      if (!video.getAttribute("src")) video.src = "images/video/chantier.mp4";
+      video.muted = true;
+      video.controls = true;
+    player.classList.add("is-playing");
+    if (play) play.hidden = true;
+    video.play().catch(() => {
+      player.classList.remove("is-playing");
+      if (play) play.hidden = false;
+    });
+  };
+  play?.addEventListener("click", start);
+}
+
+const defect = document.querySelector("[data-defect]");
+defect?.addEventListener("click", () => {
+  const quote = document.getElementById("le-prix");
+  const open = defect.getAttribute("aria-expanded") === "true";
+  defect.setAttribute("aria-expanded", String(!open));
+  quote?.classList.toggle("is-lit", !open);
+  if (!open) quote?.scrollIntoView({ behavior: "smooth", block: "center" });
+});
